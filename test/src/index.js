@@ -1,12 +1,25 @@
-import {
-  mocha,
-} from '../../src';
+/* eslint-disable no-invalid-this */
 
-describe('forgiven-mocha', () => {
-  it('should export the mocha ui factory', () => {
-    mocha.should.be.ok;
-  });
+const greet = ({greeting, person}) => `${greeting} ${person}`;
 
-  // TODO: this is an initial import of something that was working
-  // more integration tests need to be created
-});
+given('forgiven-mocha')
+.and(function() {
+  this.greeting = 'hello';
+}, function() {
+  delete this.greeting;
+})
+.and(function() {
+  this.person = 'pete';
+}, function() {
+  delete this.person;
+})
+.then(function() {
+  greet(this).should.eql('hello pete');
+})
+.then.eventually(function() {
+  greet(this).should.eql('hello pete');
+})
+.then.just(function() {
+  greet(this).should.eql('hello pete');
+})
+.end();

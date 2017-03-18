@@ -6,7 +6,7 @@
   "scripts": {
     "cmd:lint": "eslint .",
     "cmd:test": "cross-env NODE_ENV=test nyc mocha",
-    "cmd:coverage": "nyc report -r text",
+    "cmd:coverage": "nyc report -r text && nyc check-coverage",
     "cmd:build": "babel src --out-dir lib",
     "cmd:coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "run-s cmd:lint cmd:test cmd:coverage",
@@ -44,6 +44,7 @@
     "cross-env": "^3.1.4",
     "eslint": "^3.14.1",
     "eslint-config-google": "^0.7.1",
+    "forgiven": "0.0.1",
     "mocha": "^3.2.0",
     "npm-run-all": "^4.0.1",
     "nyc": "^10.1.2",

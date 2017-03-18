@@ -1,6 +1,3 @@
-// polyfills
-import 'babel-polyfill';
-
 // assertions
 import chai from 'chai';
 import sinon from 'sinon';
@@ -11,3 +8,12 @@ chai.use(chaiAsPromised);
 chai.should();
 global.expect = chai.expect;
 global.sinon = sinon;
+
+// forgiven
+import {
+  create,
+} from 'forgiven';
+import {
+  mocha,
+} from '../src';
+global.given = create(mocha);
