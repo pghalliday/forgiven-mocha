@@ -1,0 +1,17 @@
+{
+  "name": "forgiven-mocha",
+  "description": "Mocha UI factory for Forgiven",
+  "main": "browser.js",
+  "authors": [
+    "Peter Halliday <pghalliday@gmail.com> (http://pghalliday.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pghalliday/forgiven-mocha",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,4 +1,4 @@
 import {
   mocha,
 } from './src';
-global.forgiven.mocha = mocha;
+global.forgiven.ui.mocha = mocha;
