@@ -1,6 +1,6 @@
 {
   "name": "forgiven-mocha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mocha UI factory for Forgiven",
   "main": "lib/index.js",
   "scripts": {
