@@ -84,7 +84,7 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(global) {\n\nvar _src = __webpack_require__(0);\n\nglobal.forgiven.mocha = _src.mocha;\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9pbmRleC5qcz8yNjQ1Il0sIm5hbWVzIjpbImdsb2JhbCIsImZvcmdpdmVuIiwibW9jaGEiXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBR0FBLE9BQU9DLFFBQVAsQ0FBZ0JDLEtBQWhCLGMiLCJmaWxlIjoiMi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XG4gIG1vY2hhLFxufSBmcm9tICcuL3NyYyc7XG5nbG9iYWwuZm9yZ2l2ZW4ubW9jaGEgPSBtb2NoYTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyAuL2luZGV4LmpzIl0sInNvdXJjZVJvb3QiOiIifQ==");
+eval("/* WEBPACK VAR INJECTION */(function(global) {\n\nvar _src = __webpack_require__(0);\n\nglobal.forgiven.ui.mocha = _src.mocha;\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9pbmRleC5qcz8yNjQ1Il0sIm5hbWVzIjpbImdsb2JhbCIsImZvcmdpdmVuIiwidWkiLCJtb2NoYSJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFHQUEsT0FBT0MsUUFBUCxDQUFnQkMsRUFBaEIsQ0FBbUJDLEtBQW5CLGMiLCJmaWxlIjoiMi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XG4gIG1vY2hhLFxufSBmcm9tICcuL3NyYyc7XG5nbG9iYWwuZm9yZ2l2ZW4udWkubW9jaGEgPSBtb2NoYTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyAuL2luZGV4LmpzIl0sInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ })
 /******/ ]);
